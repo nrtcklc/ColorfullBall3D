@@ -1,0 +1,34 @@
+
+Admob ID Örnek
+
+Örnek App id : "ca-app-pub-3940256099942544~3347511713"
+Örnek Banner id : "ca-app-pub-3940256099942544/6300978111"
+Örnek Intersititial id : "ca-app-pub-3940256099942544/1033173712"
+Örnek RewardedAds id : "ca-app-pub-3940256099942544/5224354917"
+
+
+1-)Android ------------------------
+
+App id : ""
+
+Banner id : ""
+
+Intersititial id : ""
+
+RewardedAds id : ""
+
+
+
+2-)Ios------------------------
+
+App id : ""
+
+Banner id : ""
+
+Intersititial id : ""
+
+RewardedAds id : ""
+
+
+(!)*Lütfen tirnak aralarini örnek idler gibi doldurunuz*
+(!)*Android ve IOS için ayrı ayrı uygulama ve reklam birimleri oluşturulmalıdır*
