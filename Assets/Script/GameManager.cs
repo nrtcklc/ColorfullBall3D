@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public UIManager uiManager;
-    public RewaredAds rewaredAds;
-    public InterstitialAds interstitialAds;
+    //public RewaredAds rewaredAds;
+    //public InterstitialAds interstitialAds;
     public AudioSource BackgroundSource;
 
     public AudioSource finishedSound;
@@ -23,14 +23,14 @@ public class GameManager : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && gameObject.CompareTag("FinishLine"))
         {
             Debug.Log("Game Over");
-            if (PlayerPrefs.GetInt("NoAds") == 0)
+           /* if (PlayerPrefs.GetInt("NoAds") == 0)
             {
              interstitialAds.LoadInterstitialAd();
-            }
+            }*/
             
             finishedSound.PlayOneShot(finishedClicp);
             BackgroundSource.mute = true;
-            rewaredAds.LoadRewardedAd(); 
+            //rewaredAds.LoadRewardedAd(); 
             CoinCalculater(100);
             uiManager.CoinTextUpdate();
             uiManager.FinishScreen();
